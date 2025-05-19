@@ -157,9 +157,9 @@ rename_firmware() {
                 fi
                 local new_name
                 if [[ -n "$kernel" ]]; then
-                    new_name="${OP_BASE}-${BRANCH}-${replace}-${kernel}-${TUNNEL}-By-Xidz_x.img.gz"
+                    new_name="${OP_BASE}-${BRANCH}-${replace}-${kernel}-${TUNNEL}-By-ALEWRT.img.gz"
                 else
-                    new_name="${OP_BASE}-${BRANCH}-${replace}-${TUNNEL}-By-Xidz_x.img.gz"
+                    new_name="${OP_BASE}-${BRANCH}-${replace}-${TUNNEL}-By-ALEWRT.img.gz"
                 fi
                 echo -e "${INFO} Renaming: $file → $new_name"
                 mv "$file" "$new_name" || {
